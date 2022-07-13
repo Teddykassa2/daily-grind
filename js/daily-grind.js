@@ -50,6 +50,8 @@ const urlParams = new URLSearchParams(queryString);
 if(urlParams.has("day")){//if data on querystring, load from querystring
     myDay = urlParams.get("day");
 }
+
+myDay = parseInt(myDay);
 //there is a code watch the video on 7/7 at 11:20
 switch(myDay){
  
